@@ -1,0 +1,25 @@
+name: mamba-4chan
+channels:
+  - nvidia
+  - pytorch
+dependencies:
+  - beautifulsoup4
+  - cuda-python=12.*
+  - cmake
+  - einops
+  - gcc=12.*
+  - gxx=12.*
+  - ipykernel
+  - ipywidgets
+  - lightning
+  - lxml
+  - make
+  - matplotlib
+  - python=3.11.*
+  - pytorch
+  - pytorch-cuda=12.1
+  - timm
+  - torchaudio
+  - torchvision
+  - transformers
+  - wandb
