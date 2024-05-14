@@ -4,7 +4,8 @@ channels:
   - pytorch
 dependencies:
   - beautifulsoup4
-  - cuda-python=12.*
+  - cccl
+  - cuda-toolkit=12.*
   - cmake
   - einops
   - gcc=12.*
@@ -15,10 +16,9 @@ dependencies:
   - lxml
   - make
   - matplotlib
-  - python=3.11.*
+  - python=3.12.*
   - pytorch
   - pytorch-cuda=12.1
-  - timm
   - torchaudio
   - torchvision
   - transformers

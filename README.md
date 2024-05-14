@@ -43,11 +43,12 @@ Hi anon
 
 The preprocessed dataset is then tokenized using the tokenizer from [GPT-NeoX](https://arxiv.org/abs/2204.06745) and stored as numpy memmap files with uint16 dtype. These steps reduce the dataset size from 106 GB to 11 GB, making distribution much easier. You can generate the memmap file using [generate dataset.ipynb](generate%20dataset.ipynb), or you can download the pre-generated memmap:
 
-| Download                     | Num. of Char. | Num. of Tokens |
-|------------------------------|---------------|----------------|
-| [Download][dataset download] | 21B           | 6B             |
+| Raw Text Download             | Num. of Char. | Tokenized Download             | Num. of Tokens |
+|-------------------------------|---------------|--------------------------------|----------------|
+| [Download][raw text download] | 21B           | [Download][tokenized download] | 6B             |
 
-[dataset download]: https://archive.org/details/mamba_4chan_dataset
+[raw text download]: https://archive.org/details/mamba_4chan_dataset_raw
+[tokenized download]: https://archive.org/details/mamba_4chan_dataset
 
 ## Fine-tuned Models
 
@@ -84,6 +85,8 @@ tokenizer = AutoTokenizer.from_pretrained("EleutherAI/gpt-neox-20b")
 text = "--- 94326400\nHi /pol/, lets have a thread about".rstrip()
 pred = model.generate_text(tokenizer, text, 256)
 ```
+
+You can also use this [colab notebook](https://colab.research.google.com/drive/1AEebKVl0gBOg75G8kYwIPUZdlK0kRTK4) for a quick demo.
 
 ## Credits
 
