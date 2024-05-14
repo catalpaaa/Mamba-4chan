@@ -43,9 +43,9 @@ Hi anon
 
 The preprocessed dataset is then tokenized using the tokenizer from [GPT-NeoX](https://arxiv.org/abs/2204.06745) and stored as numpy memmap files with uint16 dtype. These steps reduce the dataset size from 106 GB to 11 GB, making distribution much easier. You can generate the memmap file using [generate dataset.ipynb](generate%20dataset.ipynb), or you can download the pre-generated memmap:
 
-| Download                 | Num. of Char. | Num. of Tokens |
-|--------------------------|---------------|----------------|
-| [link][dataset download] | 21B           | 6B             |
+| Download                     | Num. of Char. | Num. of Tokens |
+|------------------------------|---------------|----------------|
+| [Download][dataset download] | 21B           | 6B             |
 
 [dataset download]: https://archive.org/details/mamba_4chan_dataset
 
