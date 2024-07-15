@@ -2,11 +2,11 @@
 
 ## About
 
-The Kingdom of the Crystal Kek, the sequel to Raiders of the Lost Kek. The legendary GPT-4chan is returned with [selective SSM](https://arxiv.org/abs/2312.00752).
+The Kingdom of the Crystal Kek, the sequel to Raiders of the Lost Kek. The legendary GPT-4chan has returned with [selective SSM](https://arxiv.org/abs/2312.00752).
 
 ## Installation
 
-We provided a simple [setup.sh](setup.sh) to install the Conda environment. You need to satisfy the following prerequisite:
+We provided a simple [setup.sh](setup.sh) to install the Conda environment. You need to satisfy the following prerequisites:
 
 - Linux
 - NVIDIA GPU
@@ -52,7 +52,7 @@ The preprocessed dataset is then tokenized using the tokenizer from [GPT-NeoX](h
 
 ## Fine-tuned Models
 
-We provide the following fine-tuned models, each trained for one epochs on the tokenized dataset using a single RTX 6000 Ada with a context size of 2048 tokens. Mixed precision (bf16) was used for training, while the model weights were stored in fp32. We will release more models and improved versions as opportunities arise.
+We provide the following fine-tuned models, each trained for one epoch on the tokenized dataset using a single RTX 6000 Ada with a context size of 2048 tokens. Mixed precision (bf16) was used for training, while the model weights were stored in fp32. We will release more models and improved versions as opportunities arise.
 
 | Name             | Model Dim. | Num. of Layers | Batch Size | Gradient Acc. | Download                  | Fine-tuning Log |
 |------------------|------------|----------------|------------|---------------|---------------------------|-----------------|
