@@ -56,9 +56,9 @@ We provide the following fine-tuned models, each trained for one epoch on the to
 | Mamba 4chan 130M | 768        | 24             | 20         | 60            | [Download][130M download] | [log][130M log] |
 | Mamba 4chan 370M | 1024       | 48             | 12         | 100           | [Download][370M download] | [log][370M log] |
 
-[130M download]: https://archive.org/details/mamba_4chan_130m
+[130M download]: https://archive.org/download/mamba-4chan/Mamba_4chan_130m.ckpt
 [130M log]: https://wandb.ai/catalpa/Mamba%204chan%20130m
-[370m download]: https://archive.org/details/mamba_4chan_370m
+[370m download]: https://archive.org/download/mamba-4chan/Mamba_4chan_370m.ckpt
 [370M log]: https://wandb.ai/catalpa/Mamba%204chan%20370m
 
 ## Training and Inferencing
